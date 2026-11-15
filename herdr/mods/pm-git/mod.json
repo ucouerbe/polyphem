@@ -1,0 +1,6 @@
+{
+  "place": "none",
+  "title": "Git",
+  "overlay": { "width": 340, "height": 96 },
+  "cloned_from": { "name": "changes", "version": "0.1.15" }
+}

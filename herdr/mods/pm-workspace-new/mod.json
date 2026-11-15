@@ -1,0 +1,6 @@
+{
+  "place": "none",
+  "title": "New workspace",
+  "overlay": { "width": 560, "height": 640 },
+  "cloned_from": { "name": "worktree", "version": "0.1.15" }
+}

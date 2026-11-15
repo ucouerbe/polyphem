@@ -1,0 +1,21 @@
+PolypheM
+Copyright 2026 The PolypheM authors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project contains modified copies of mods shipped with Herdr (https://herdr.dev),
+licensed under the Apache License, Version 2.0:
+  - herdr/mods/pm-sidebar         derived from Herdr's "spaces" mod
+  - herdr/mods/pm-tabs            derived from Herdr's "tabs" mod
+  - herdr/mods/pm-git             derived from Herdr's "changes" mod
+  - herdr/mods/pm-workspace-new   derived from Herdr's "worktree" mod
+These files were changed for PolypheM. The gpui-kit.d.ts and jsconfig.json files in each
+mod folder are Herdr's type definitions, included unchanged for editor support.
+
+Icons in herdr/mods/pm-routine/lucide/ and herdr/pm-shared/icons/ come from Lucide
+(https://lucide.dev), licensed under the ISC License:
+  Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather (MIT).
+  All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+  Permission to use, copy, modify, and/or distribute this software for any purpose with or
+  without fee is hereby granted, provided that the above copyright notice and this permission
+  notice appear in all copies.

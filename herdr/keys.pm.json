@@ -1,0 +1,19 @@
+{
+  "cmd-b": "pm-sidebar.toggle",
+  "cmd-shift-c": "pm-md.copy-rich",
+  "cmd-j": "pm-sidebar.scratch",
+  "cmd-0": "pm-sidebar.inbox",
+  "cmd-n": "pm-sidebar.new",
+  "cmd-1": "pm-sidebar.ws1",
+  "cmd-2": "pm-sidebar.ws2",
+  "cmd-3": "pm-sidebar.ws3",
+  "cmd-4": "pm-sidebar.ws4",
+  "cmd-5": "pm-sidebar.ws5",
+  "cmd-6": "pm-sidebar.ws6",
+  "cmd-7": "pm-sidebar.ws7",
+  "cmd-8": "pm-sidebar.ws8",
+  "cmd-9": "pm-sidebar.ws9",
+  "cmd-,": "mod.open:pm-settings",
+  "cmd-shift-i": "pm-sidebar.new-linear",
+  "cmd-shift-n": "pm-sidebar.new-routine"
+}
