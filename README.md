@@ -21,6 +21,11 @@ PolypheM turns Herdr into a cockpit for people who ship with Claude Code but don
 
 It's a layout, a theme, ten mods and a few scripts. Nothing to build, nothing running in the cloud.
 
+<p align="center">
+  <img src="assets/screenshots/summary.png" alt="PolypheM: Claude drafted a PRD from interview notes. Sidebar with inbox, routines and workspaces; the conversation as a summary; changed files and a Create PR button in the side panel.">
+  <br><sub>Claude just turned five interview notes into a PRD. You read the summary, check the diff, press <b>Create PR</b>.</sub>
+</p>
+
 ## What you get
 
 **Projects and workspaces**
@@ -42,9 +47,24 @@ It's a layout, a theme, ten mods and a few scripts. Nothing to build, nothing ru
 - Scheduled Claude runs defined in `.routines/<name>/routine.md` inside each repo, so they travel with the project.
 - Each run works in its own worktree, writes a report and opens a PR. You answer its questions inline, then `Approve` or `Keep report only`.
 
+<table>
+  <tr>
+    <td width="50%"><img src="assets/screenshots/routine-report.png" alt="A Feedback digest report with numbered questions and Keep report only, Approve and Send to Claude buttons"></td>
+    <td width="50%"><img src="assets/screenshots/routine-settings.png" alt="Routine settings: schedule presets, a clash warning with another routine, instructions, model and effort"></td>
+  </tr>
+  <tr>
+    <td><sub>Every weekday at 9:00, a report that asks before it acts.</sub></td>
+    <td><sub>A routine is one Markdown file. The form warns when two routines clash.</sub></td>
+  </tr>
+</table>
+
 **Markdown**
 - Rendered Markdown you edit block by block, in place. Source view when you need it.
 - `Share`: one copy that pastes formatted in Slack, Notion or mail, and as Markdown in GitHub or an editor.
+
+<p align="center">
+  <img src="assets/screenshots/markdown.png" alt="The PRD rendered in a Markdown tab, with a table of interview quotes" width="85%">
+</p>
 
 **Inbox and settings**
 - An inbox that is always there: questions waiting for you, failing CI, reports to review, PRs to review.
@@ -111,6 +131,8 @@ herdr/
 ```
 
 Herdr mods can't import files outside their own folder, so `pm-shared/ui.js` is copied into every mod by `pm-shared/sync.sh`. Edit it there, then run the script.
+
+<sub>Screenshots use a demo project, Acme Notes, with fictional interviews and tickets.</sub>
 
 ## Contributing
 
